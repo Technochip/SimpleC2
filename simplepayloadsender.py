@@ -1,4 +1,5 @@
 import socket
+import readline
 
 X = input("Enter the IP address: ")
 Y = int(input("Enter the port: "))
