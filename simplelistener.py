@@ -25,7 +25,6 @@ while True:
             if not data:
                 break
             command = data.decode().strip()
-            print(f'Received command: {command}')
             try:
                 if command == 'exit':
                     break
